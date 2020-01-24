@@ -2,6 +2,7 @@
   "name": "revision",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://magicalanmol100.github.io/YouTubePlayer",
   "dependencies": {
     "axios": "^0.18.1",
     "gh-pages": "^2.2.0",
@@ -13,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"yarn build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
